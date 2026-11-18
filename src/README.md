@@ -51,6 +51,12 @@ El frontend queda disponible en **http://localhost:3000**.
 
 ---
 
+## Despliegue en Vercel
+
+Configura `src` como directorio raíz del proyecto. `vercel.json` publica el frontend en el dominio principal y dirige las rutas `/api/*` al backend. Configura `MONGODB_URI` y `JWT_SECRET` como variables de entorno del proyecto en Vercel; `MONGODB_URI` debe apuntar a una base de datos accesible desde Vercel.
+
+---
+
 ## Credenciales de prueba
 
 Después de ejecutar `npm run seed`:
